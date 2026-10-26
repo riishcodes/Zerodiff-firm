@@ -88,7 +88,7 @@ export async function POST(request: Request) {
 
       default:
         return NextResponse.json({
-          message: "Trilegal AI engine processed request successfully.",
+          message: "Zerodiff Firm engine processed request successfully.",
           timestamp: new Date().toISOString()
         });
     }

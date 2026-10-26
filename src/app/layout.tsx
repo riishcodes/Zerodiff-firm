@@ -5,7 +5,7 @@ import { Toaster } from "@/components/ui/sonner";
 import GlobalCommandMenu from "@/components/GlobalCommandMenu";
 
 export const metadata: Metadata = {
-  title: "Trilegal AI: your AI co-counsel with the OrbitX engine",
+  title: "Zerodiff Firm: your AI co-counsel with the OrbitX engine",
   description:
     "AI operating system for law firms. Unified legal research, AI drafting, risk scoring, and lawyer development.",
 };

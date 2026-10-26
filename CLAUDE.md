@@ -1,7 +1,7 @@
-# TRILEGAL AI - Project Context
+# ZERODIFF FIRM - Project Context
 
 ## Project Overview
-**Trilegal AI** is an Enterprise Legal Operating System for Indian law firms. It unifies legal research, AI-powered drafting, case risk analysis, and lawyer talent intelligence (OrbitX engine) into one co-counsel workspace.
+**Zerodiff Firm** is an Enterprise Legal Operating System for Indian law firms. It unifies legal research, AI-powered drafting, case risk analysis, and lawyer talent intelligence (OrbitX engine) into one co-counsel workspace.
 
 **Current Status**: Demo MVP with simulated data and pre-filled credentials.
 

@@ -73,13 +73,13 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
   // Load from local storage if available
   useEffect(() => {
     try {
-      const savedCases = localStorage.getItem("trilegal_cases");
+      const savedCases = localStorage.getItem("zerodiff_cases") || localStorage.getItem("trilegal_cases");
       if (savedCases) setCases(JSON.parse(savedCases));
-      const savedBrief = localStorage.getItem("trilegal_brief");
+      const savedBrief = localStorage.getItem("zerodiff_brief") || localStorage.getItem("trilegal_brief");
       if (savedBrief) setBriefItems(JSON.parse(savedBrief));
-      const savedTasks = localStorage.getItem("trilegal_tasks");
+      const savedTasks = localStorage.getItem("zerodiff_tasks") || localStorage.getItem("trilegal_tasks");
       if (savedTasks) setTasks(JSON.parse(savedTasks));
-      const savedDraft = localStorage.getItem("trilegal_draft");
+      const savedDraft = localStorage.getItem("zerodiff_draft") || localStorage.getItem("trilegal_draft");
       if (savedDraft) setCurrentDraft(JSON.parse(savedDraft));
     } catch (e) {
       console.warn("LocalStorage error", e);
@@ -89,28 +89,28 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
   const saveCasesToStorage = (updated: Case[]) => {
     setCases(updated);
     try {
-      localStorage.setItem("trilegal_cases", JSON.stringify(updated));
+      localStorage.setItem("zerodiff_cases", JSON.stringify(updated));
     } catch (e) {}
   };
 
   const saveBriefToStorage = (updated: BriefItem[]) => {
     setBriefItems(updated);
     try {
-      localStorage.setItem("trilegal_brief", JSON.stringify(updated));
+      localStorage.setItem("zerodiff_brief", JSON.stringify(updated));
     } catch (e) {}
   };
 
   const saveTasksToStorage = (updated: Task[]) => {
     setTasks(updated);
     try {
-      localStorage.setItem("trilegal_tasks", JSON.stringify(updated));
+      localStorage.setItem("zerodiff_tasks", JSON.stringify(updated));
     } catch (e) {}
   };
 
   const saveDraftToStorage = (draft: LegalDraft) => {
     setCurrentDraft(draft);
     try {
-      localStorage.setItem("trilegal_draft", JSON.stringify(draft));
+      localStorage.setItem("zerodiff_draft", JSON.stringify(draft));
     } catch (e) {}
   };
 
@@ -228,7 +228,7 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
       practiceArea: newCaseData.practiceArea || "Constitutional Law",
       caseType: newCaseData.caseType || "Writ Petition",
       court: newCaseData.court || "High Court of Bombay",
-      briefDescription: newCaseData.briefDescription || "Matter created in Trilegal AI workspace.",
+      briefDescription: newCaseData.briefDescription || "Matter created in Zerodiff Firm workspace.",
       riskLevel: risk.level,
       riskConfidence: risk.confidence,
       riskFactors: newCaseData.riskFactors || [

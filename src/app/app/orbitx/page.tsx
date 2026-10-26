@@ -169,7 +169,7 @@ export default function OrbitXAnalyticsPage() {
                 SKILL GAP ANALYSIS
               </h2>
               <p className="text-xs text-slate-500">
-                Benchmarked against Trilegal Senior Partner competency matrix.
+                Benchmarked against Zerodiff Firm Senior Partner competency matrix.
               </p>
             </div>
             <Badge variant="aiPurple">Verified</Badge>

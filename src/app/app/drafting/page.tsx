@@ -66,7 +66,7 @@ export default function DraftingHubPage() {
               DRAFT A LEGAL DOCUMENT
             </h1>
             <p className="text-xs text-slate-500 mt-0.5">
-              Draft petitions, notices, and memos powered by your active Case Brief precedents and Trilegal drafting standards.
+              Draft petitions, notices, and memos powered by your active Case Brief precedents and Zerodiff Firm drafting standards.
             </p>
           </div>
 

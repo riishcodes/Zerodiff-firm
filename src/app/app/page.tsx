@@ -204,7 +204,7 @@ export default function DashboardPage() {
                   </span>
                 </h2>
                 <p className="text-[13px] text-slate-500 mt-0.5 font-normal">
-                  Managed under Trilegal practice groups with OrbitX risk tiers.
+                  Managed under Zerodiff Firm practice groups with OrbitX risk tiers.
                 </p>
               </div>
 
@@ -401,7 +401,7 @@ export default function DashboardPage() {
               <div className="flex items-center space-x-2">
                 <span className="w-2 h-2 rounded-full bg-purple-600"></span>
                 <div>
-                  <span className="text-xs font-bold text-slate-900 tracking-tight">TRILEGAL AI</span>
+                  <span className="text-xs font-bold text-slate-900 tracking-tight">ZERODIFF FIRM</span>
                   <span className="text-[11px] text-slate-400 font-normal ml-1.5">Co-Counsel</span>
                 </div>
               </div>

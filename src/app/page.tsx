@@ -1,4 +1,4 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 import Link from "next/link";
 import { Inter, JetBrains_Mono } from "next/font/google";
 import {
@@ -39,7 +39,7 @@ const mono = JetBrains_Mono({
 const MONO = { fontFamily: "var(--font-landing-mono), ui-monospace, monospace" };
 
 export const metadata: Metadata = {
-  title: "Trilegal AI: one workspace for the whole matter",
+  title: "Zerodiff Firm: one workspace for the whole matter",
   description:
     "Legal research across five sources, AI-assisted drafting, deterministic case risk scoring and lawyer staffing for Indian law firms. Demo running on simulated data.",
 };
@@ -177,12 +177,12 @@ export default function Home() {
           <Link
             href="/"
             className="flex shrink-0 items-center gap-2.5"
-            aria-label="Trilegal AI home"
+            aria-label="Zerodiff Firm home"
           >
             <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-trilegal-text">
               <Scale className="h-4 w-4 text-white" strokeWidth={1.5} />
             </span>
-            <span className="text-[15px] font-semibold tracking-[-0.01em]">TRILEGAL AI</span>
+            <span className="text-[15px] font-semibold tracking-[-0.01em]">ZERODIFF FIRM</span>
           </Link>
 
           <span aria-hidden className="hidden h-6 w-px shrink-0 bg-trilegal-border lg:block" />
@@ -673,7 +673,7 @@ export default function Home() {
                 What this demo does, and what it does not.
               </h2>
               <p className={`mt-6 max-w-[60ch] ${LEDE}`}>
-                Trilegal AI is a working prototype, not a deployed product. It is worth being exact
+                Zerodiff Firm is a working prototype, not a deployed product. It is worth being exact
                 about that before you open it, because the distinction matters more to a firm than to
                 almost anyone else.
               </p>
@@ -761,7 +761,7 @@ export default function Home() {
           <span className="flex h-7 w-7 items-center justify-center rounded-lg bg-trilegal-text">
             <Scale className="h-3.5 w-3.5 text-white" strokeWidth={1.5} />
           </span>
-          <span className="text-sm font-medium tracking-[-0.01em]">TRILEGAL AI</span>
+          <span className="text-sm font-medium tracking-[-0.01em]">ZERODIFF FIRM</span>
         </div>
         <p className="text-sm text-trilegal-muted">
           Demo application running on simulated data. Copyright 2026.

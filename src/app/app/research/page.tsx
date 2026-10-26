@@ -350,7 +350,7 @@ function LegalResearchContent() {
                       <div className="p-3 rounded-lg bg-purple-50/50 border border-purple-100 text-xs space-y-1">
                         <div className="flex items-center space-x-1.5 text-purple-900 font-bold text-[11px]">
                           <Sparkles className="w-3.5 h-3.5 text-purple-600" />
-                          <span>TRILEGAL AI RELEVANCE ANALYSIS:</span>
+                          <span>ZERODIFF FIRM RELEVANCE ANALYSIS:</span>
                         </div>
                         <p className="text-purple-950 leading-relaxed font-medium">
                           {item.aiRelevanceExplanation}

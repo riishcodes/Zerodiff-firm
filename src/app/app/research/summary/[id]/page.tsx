@@ -75,7 +75,7 @@ export default function AiJudgmentSummaryPage() {
           </Link>
         </Button>
         <Badge variant="aiPurple" className="font-semibold text-xs">
-          TRILEGAL AI SUMMARY
+          ZERODIFF FIRM SUMMARY
         </Badge>
       </div>
 
@@ -136,7 +136,7 @@ export default function AiJudgmentSummaryPage() {
           <div className="flex items-center space-x-2">
             <Sparkles className="w-4 h-4 text-purple-600 shrink-0" />
             <span>
-              <strong>TRILEGAL AI GENERATED SUMMARY:</strong> Synthesized from authentic Indian landmark jurisprudence. Clearly labeled for attorney verification.
+              <strong>ZERODIFF FIRM GENERATED SUMMARY:</strong> Synthesized from authentic Indian landmark jurisprudence. Clearly labeled for attorney verification.
             </span>
           </div>
           <Badge variant="aiPurple" className="font-bold">

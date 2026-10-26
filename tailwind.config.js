@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 
 /*
- * Trilegal AI Design System — single blue palette.
+ * Zerodiff Firm Design System — single blue palette.
  *
  * Primary       #2762E5  CTAs, active states, links
  * Primary Light #82A9F8  hover / secondary states
@@ -137,7 +137,25 @@ module.exports = {
         input: "var(--input)",
         ring: "var(--ring)",
 
-        // Strict Trilegal AI Design Tokens
+        // Strict Zerodiff Firm Design Tokens
+        zerodiff: {
+          primary: "#2762E5",
+          primaryLight: "#82A9F8",
+          primaryPale: "#CCDEF9",
+          navy: "#10182B",
+          navyBlue: "#173068",
+          sidebar: "#10182B",
+          blue: "#2762E5",
+          purple: "#173068",
+          green: "#158055",
+          amber: "#B26914",
+          red: "#CE2A2A",
+          bg: "#EFF4FC",
+          card: "#FDFEFE",
+          text: "#10182B",
+          muted: "#3E4554",
+          border: "#DDE5F2",
+        },
         trilegal: {
           primary: "#2762E5",
           primaryLight: "#82A9F8",

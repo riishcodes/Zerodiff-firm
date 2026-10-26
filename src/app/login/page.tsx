@@ -28,7 +28,7 @@ export default function LoginPage() {
               <Scale className="w-6 h-6" />
             </div>
             <div>
-              <div className="text-xl font-bold tracking-tight">TRILEGAL AI</div>
+              <div className="text-xl font-bold tracking-tight">ZERODIFF FIRM</div>
               <div className="text-xs text-blue-300 font-medium">Your AI Co-Counsel</div>
             </div>
           </div>
@@ -42,7 +42,7 @@ export default function LoginPage() {
               <span className="text-blue-400 font-normal">Build a Fairer Tomorrow.</span>&rdquo;
             </blockquote>
             <p className="mt-4 text-sm text-slate-400 leading-relaxed">
-              Trilegal AI unifies precedent research, institutional knowledge, strategic case drafting, and the 
+              Zerodiff Firm unifies precedent research, institutional knowledge, strategic case drafting, and the 
               <strong> OrbitX</strong> talent intelligence engine into one seamless co-counsel workspace.
             </p>
           </div>
@@ -151,7 +151,7 @@ export default function LoginPage() {
 
           <div className="pt-4 border-t border-slate-100 text-center">
             <p className="text-xs text-slate-500">
-              New to Trilegal AI?{" "}
+              New to Zerodiff Firm?{" "}
               <a href="#" className="text-blue-600 font-semibold hover:underline">Request Access from Practice Lead</a>
             </p>
           </div>

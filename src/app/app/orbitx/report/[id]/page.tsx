@@ -63,7 +63,7 @@ export default function ProfessionalGrowthReportPage() {
               <div className="w-8 h-8 rounded bg-[#10182B] text-white flex items-center justify-center font-bold text-sm">
                 <Scale className="w-4 h-4" />
               </div>
-              <span className="font-bold text-lg tracking-tight text-slate-900">TRILEGAL</span>
+              <span className="font-bold text-lg tracking-tight text-slate-900">ZERODIFF FIRM</span>
               <span className="text-xs text-slate-400 font-mono">| ADVOCATES &amp; SOLICITORS</span>
             </div>
             <div className="mt-4">
@@ -200,7 +200,7 @@ export default function ProfessionalGrowthReportPage() {
             <div className="inline-block border-t border-slate-400 pt-2 font-serif font-bold text-slate-900">
               Vikramjit Roy, Senior Partner
             </div>
-            <div className="text-[10px] text-slate-400">Head of Dispute Resolution, Trilegal</div>
+            <div className="text-[10px] text-slate-400">Head of Dispute Resolution, Zerodiff Firm</div>
           </div>
         </div>
       </div>

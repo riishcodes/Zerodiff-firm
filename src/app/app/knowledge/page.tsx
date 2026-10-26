@@ -53,7 +53,7 @@ export default function KnowledgeVaultPage() {
               FIRM KNOWLEDGE VAULT
             </h1>
             <p className="text-xs text-slate-500 mt-0.5">
-              Secure internal archive of Trilegal briefs, settled legal opinions, research memoranda, and court templates.
+              Secure internal archive of Zerodiff Firm briefs, settled legal opinions, research memoranda, and court templates.
             </p>
           </div>
 
@@ -70,7 +70,7 @@ export default function KnowledgeVaultPage() {
             type="text"
             value={search}
             onChange={(e) => setSearch(e.target.value)}
-            placeholder="Search briefs, opinions, research memos and filings across Trilegal practice groups..."
+            placeholder="Search briefs, opinions, research memos and filings across Zerodiff Firm practice groups..."
             className="w-full pl-10 pr-4 py-2.5 bg-slate-50 border border-slate-200 rounded-lg text-xs lg:text-sm text-slate-900 focus:outline-none focus:ring-2 focus:ring-blue-500"
           />
         </div>

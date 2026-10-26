@@ -84,7 +84,7 @@ export default function Sidebar() {
           </div>
           <div>
             <div className="flex items-center space-x-2">
-              <span className="font-bold tracking-tight text-white text-[15px]">TRILEGAL AI</span>
+              <span className="font-bold tracking-tight text-white text-[15px]">ZERODIFF FIRM</span>
             </div>
             <p className="text-[11px] text-slate-400 font-medium tracking-tight">Your AI Co-Counsel</p>
           </div>

@@ -62,7 +62,7 @@ export default function AiCaseStrategyPage() {
               <span>Litigation Strategy: {currentCase.title}</span>
             </h1>
             <p className="text-xs text-slate-500 mt-0.5">
-              Formulated via Trilegal AI Precedent Graph and Indian Constitutional Jurisprudence.
+              Formulated via Zerodiff Firm Precedent Graph and Indian Constitutional Jurisprudence.
             </p>
             {/* Demo Flow Breadcrumb Guide */}
             <div className="mt-2.5 inline-flex items-center space-x-2 bg-purple-50/80 border border-purple-200/80 px-3 py-1 rounded-lg text-xs text-purple-900">
@@ -106,7 +106,7 @@ export default function AiCaseStrategyPage() {
               <strong>CONFIDENTIAL &bull; AI-GENERATED STRATEGY:</strong> Must be vetted and settled by Lead Advocate or Senior Partner prior to judicial filing.
             </span>
           </div>
-          <span className="text-[10px] text-amber-700 font-bold uppercase">Trilegal Protocol</span>
+          <span className="text-[10px] text-amber-700 font-bold uppercase">Zerodiff Firm Protocol</span>
         </div>
       </div>
 

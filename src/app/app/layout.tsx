@@ -20,7 +20,7 @@ export default function AppLayout({
         <footer className="py-4 px-8 border-t border-slate-200 bg-white text-center text-xs text-slate-400">
           <div className="flex flex-col sm:flex-row items-center justify-between gap-2 max-w-7xl mx-auto">
             <span>
-              <strong>TRILEGAL AI</strong> &bull; Powered by <strong>ORBITX Intelligence Engine</strong>
+              <strong>ZERODIFF FIRM</strong> &bull; Powered by <strong>ORBITX Intelligence Engine</strong>
             </span>
             <span className="text-[11px] text-slate-500">
               Enterprise Legal Tech MVP &bull; Demo Mode with simulated legal database connectors &bull; Confidential

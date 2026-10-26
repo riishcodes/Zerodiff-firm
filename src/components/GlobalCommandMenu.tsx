@@ -59,7 +59,7 @@ export default function GlobalCommandMenu() {
     <CommandDialog open={open} onOpenChange={setOpen}>
       <CommandInput placeholder="Type a command, search cases, precedents, or counsel..." />
       <CommandList>
-        <CommandEmpty>No results found in Trilegal repositories.</CommandEmpty>
+        <CommandEmpty>No results found in Zerodiff Firm repositories.</CommandEmpty>
 
         <CommandGroup heading="Quick Actions">
           <CommandItem

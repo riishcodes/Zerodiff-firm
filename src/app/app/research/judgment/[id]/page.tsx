@@ -200,7 +200,7 @@ export default function JudgmentViewerPage() {
           </div>
         </div>
 
-        {/* Right 4 Cols: Trilegal AI Document Assistant */}
+        {/* Right 4 Cols: Zerodiff Firm Document Assistant */}
         <div className="lg:col-span-4 space-y-4">
           <div className="bg-white rounded-xl border border-slate-200 p-5 shadow-subtle space-y-4 sticky top-20">
             <div className="flex items-center space-x-2 border-b border-slate-100 pb-3">
@@ -209,7 +209,7 @@ export default function JudgmentViewerPage() {
               </div>
               <div>
                 <h3 className="text-xs font-bold text-slate-900 uppercase tracking-wider">
-                  TRILEGAL AI ASSISTANT
+                  ZERODIFF FIRM ASSISTANT
                 </h3>
                 <p className="text-[10px] text-slate-400">Contextual Judgment Intelligence</p>
               </div>

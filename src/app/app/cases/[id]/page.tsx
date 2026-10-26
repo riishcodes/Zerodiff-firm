@@ -186,7 +186,7 @@ export default function CaseWorkspacePage() {
               </div>
 
               <div className="p-3 bg-purple-50/60 rounded-lg border border-purple-100 text-xs text-purple-950 space-y-1.5">
-                <div className="font-bold">Primary Argument Recognized by Trilegal AI:</div>
+                <div className="font-bold">Primary Argument Recognized by Zerodiff Firm:</div>
                 <p className="leading-relaxed text-purple-900">
                   &ldquo;The Municipal Corporation is bound by promissory estoppel and cannot retrospectively nullify accrued building sanctions without giving prior show-cause notice (Audi Alteram Partem). Citing <em>Maneka Gandhi v. UOI (1978)</em> &amp; <em>Shayara Bano (2017)</em> manifest arbitrariness doctrine.&rdquo;
                 </p>
@@ -407,7 +407,7 @@ export default function CaseWorkspacePage() {
           <div className="flex justify-between items-center border-b border-slate-100 pb-3">
             <div>
               <h2 className="text-base font-bold text-slate-900">Legal Drafts &amp; Petitions</h2>
-              <p className="text-xs text-slate-500">Working drafts created in the Trilegal AI Studio.</p>
+              <p className="text-xs text-slate-500">Working drafts created in the Zerodiff Firm Studio.</p>
             </div>
             <Link
               href="/app/drafting"

@@ -71,7 +71,7 @@ export default function SettingsPage() {
               <option value="Partner-style">Partner-style (Authoritative, Prescriptive)</option>
               <option value="Formal">Formal (Traditional High Court Pleadings)</option>
               <option value="Concise">Concise (Executive Bench Summary)</option>
-              <option value="Firm Standard">Trilegal Standard Institutional</option>
+              <option value="Firm Standard">Zerodiff Firm Standard Institutional</option>
             </select>
           </div>
 
@@ -125,7 +125,7 @@ export default function SettingsPage() {
             { name: "Manupatra API Gateway", status: "SIMULATED / ACTIVE", latency: "22ms", records: "2.1M Judgments" },
             { name: "Westlaw India Federated Search", status: "SIMULATED / ACTIVE", latency: "38ms", records: "International / Commonwealth" },
             { name: "Indian Kanoon Public Parser", status: "OPEN PUBLIC SOURCE", latency: "18ms", records: "SC & HC Archive" },
-            { name: "Trilegal Knowledge Vault (Azure Tenant)", status: "CONNECTED / CONFIDENTIAL", latency: "4ms", records: "3,400 Firm Files" },
+            { name: "Zerodiff Firm Knowledge Vault (Azure Tenant)", status: "CONNECTED / CONFIDENTIAL", latency: "4ms", records: "3,400 Firm Files" },
           ].map((conn, idx) => (
             <div key={idx} className="p-3 bg-slate-50 rounded-lg border border-slate-200 flex items-center justify-between">
               <div>
@@ -147,7 +147,7 @@ export default function SettingsPage() {
           <span>LEGAL NOTICE &amp; DATA PRIVACY PROTOCOL</span>
         </div>
         <p className="text-slate-400 leading-relaxed text-[11px]">
-          Trilegal AI processes case files in dedicated zero-retention tenant sandboxes. No confidential client data or proprietary litigation strategies are used to train foundational AI models. All AI-generated work product must be verified by qualified advocates before filing before Courts of Record.
+          Zerodiff Firm processes case files in dedicated zero-retention tenant sandboxes. No confidential client data or proprietary litigation strategies are used to train foundational AI models. All AI-generated work product must be verified by qualified advocates before filing before Courts of Record.
         </p>
       </div>
     </div>
