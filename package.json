@@ -5,10 +5,10 @@
   "main": "index.js",
   "scripts": {
     "dev": "next dev",
-    "build": "opennextjs-cloudflare build",
+    "build": "opennextjs-cloudflare build --dangerouslyUseUnsupportedNextVersion",
     "build:next": "next build",
-    "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",
-    "preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
+    "deploy": "opennextjs-cloudflare build --dangerouslyUseUnsupportedNextVersion && opennextjs-cloudflare deploy",
+    "preview": "opennextjs-cloudflare build --dangerouslyUseUnsupportedNextVersion && opennextjs-cloudflare preview",
     "pages:build": "npx @cloudflare/next-on-pages",
     "start": "next start",
     "lint": "next lint"
